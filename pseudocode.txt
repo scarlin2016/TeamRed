@@ -3,6 +3,7 @@ START
 		TheDice Dice[5] = {null, null, null, null, null} //Initialize an array of 5 dice
 		public num scoreCount = 0
 		public num turn = 0
+		
 	WHILE turn < 4	
 		WHILE YahtzeeForm.rollCount < 3
 			IF YahtzeeForm.rollCount == 0
