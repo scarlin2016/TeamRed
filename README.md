@@ -1,6 +1,6 @@
 # [aboutVisualC#](http://startbootstrap.com/)
 
-[aboutVisualC#](http://startbootstrap.com/template-overviews/grayscale/) is an informational webpage about the [IntelliJ IDEA](https://www.jetbrains.com/idea/).
+[aboutVisualC#](http://startbootstrap.com/template-overviews/grayscale/) is an informational webpage about the [Visual C# IDEA](https://www.jetbrains.com/idea/).
 
 ## About aboutVisualC#
 
