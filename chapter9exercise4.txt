@@ -1,0 +1,36 @@
+//M.Williams chapter9 #4
+
+START
+	DECLARATIONS
+		num vacationCost
+		num monthsUntilVacation
+		num EXIT = -999
+		num savingsPerMonth
+
+	houseKeeping()
+	WHILE vacationCost <> EXIT
+		detailedLoop()
+	ENDWHILE
+	endOfTask()
+STOP
+
+houseKeeping()
+	OUTPUT "Welcome to the program. This will display the amount you must save per month
+			to go on your vacation"
+	OUTPUT "Please enter the cost of your vacation"
+	INPUT vacationCost
+RETURN
+
+detailedLoop()
+	OUTPUT "Please enter how months until your vacation"
+	INPUT monthsUntilVacation
+	savingsPerMonth = vacationCost / monthsUntilVacation
+	OUTPUT "You must save $",savingsPerMonth, "every month to afford your vacation"
+	OUTPUT "Please enter the cost of your vacation or enter -999 to exit the program"
+	INPUT vacationCost
+RETURN
+
+endOfTask()
+	OUTPUT "Thank you for using this program"
+RETURN
+	
